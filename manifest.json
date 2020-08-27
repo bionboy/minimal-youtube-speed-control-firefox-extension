@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "minimal-youtube-speed-control",
+  "version": "1.0",
+  "description": "A minimal alternative to youtube speed control extensions.",
+  "icons": {
+    "48": "icons/icon-48.png"
+    "96": "icons/icon-96.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["speed-controls.js"]
+    }
+  ]
+}
