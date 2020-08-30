@@ -1,0 +1,22 @@
+html, body {
+    /* width: 100px; */
+    background-color: #444;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    text-align: center;
+    font-size: 1.0em;
+    background-color: #222;
+    color: #EEE;
+}
+
+input {
+    width: 50px;
+    text-align: center;
+    background-color: #222;
+    color: #EEE;
+}
