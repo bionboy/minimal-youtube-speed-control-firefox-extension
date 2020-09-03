@@ -1,3 +1,4 @@
+
 function listenForClicks() {
     document.addEventListener("click", (e) => {
         let amount = 0;
